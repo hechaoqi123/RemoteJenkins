@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/studybase?useUnicode=true&characterEncoding=utf8
+      #&useSSL=false
+    username: root
+    password: root
+    type: org.apache.tomcat.jdbc.pool.DataSource
+mybatis-plus:
+  mapper-locations: classpath:mappings/*Mapper.xml
+logging:
+  level:
+    com.example.retrystudy: debug
